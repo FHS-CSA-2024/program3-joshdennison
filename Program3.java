@@ -3,7 +3,8 @@
 import java.util.Scanner; //This imports the console scanner that reads user input
 
 //Your code here:
-
+public class main {
+public static void main(String[] args){
 
 
 
