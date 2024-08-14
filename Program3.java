@@ -13,10 +13,10 @@ public static void main(String[] args){
  int height = Height.nextInt();
  System.out.println("the width is "+ width);
  System.out.println("the height is" + height);
- int area == (width*height);
- int perimeter = (2*width) + (2*height);
- System.out.print("the area is" + area);
- System.out.print("the perimeter is" + perimeter);
+ int area = (width * height);
+ int perimeter = (2 * width) + (2 * height);
+ System.out.println("the area is " + area);
+ System.out.println("the perimeter is " + perimeter);
 
  }
 }
