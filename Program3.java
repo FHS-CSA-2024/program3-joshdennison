@@ -12,7 +12,7 @@ public static void main(String[] args){
  System.out.println("enter Height");
  int height = Height.nextInt();
  System.out.println("the width is "+ width);
- System.out.println("the height is" + height);
+ System.out.println("the height is " + height);
  int area = (width * height);
  int perimeter = (2 * width) + (2 * height);
  System.out.println("the area is " + area);
@@ -22,6 +22,15 @@ public static void main(String[] args){
 }
 //Paste console output below:
 /*
+enter width 
+23
+enter Height
+10
+the width is 23
+the height is 10
+the area is 230
+the perimeter is 66
 
+=== Code Execution Successful ===
 
 */
