@@ -5,12 +5,21 @@ import java.util.Scanner; //This imports the console scanner that reads user inp
 //Your code here:
  class program3thing {
 public static void main(String[] args){
-int width= 9;
-  int height = 1;
-Scanner input = new Scanner(System.in);
-System.out.print("enter width");
-  System.out.print("enter height");
-width= Input();
+ Scanner Width = new Scanner(System.in);
+ Scanner Height= new Scanner(System.in);
+ System.out.println("enter width ");
+ int width = Width.nextInt();
+ System.out.println("enter Height");
+ int height = Height.nextInt();
+ System.out.println("the width is "+ width);
+ System.out.println("the height is" + height);
+ int area == (width*height);
+ int perimeter = (2*width) + (2*height);
+ System.out.print("the area is" + area);
+ System.out.print("the perimeter is" + perimeter);
+
+ }
+}
 //Paste console output below:
 /*
 
